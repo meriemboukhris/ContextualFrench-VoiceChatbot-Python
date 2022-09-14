@@ -1,0 +1,54 @@
+{
+    "intents":[
+      {
+        "tag": "salutations",
+      "patterns":["bonjour", "coucou", "bonsoir", "bon après midi"],
+      "responses":["Bonjour à vous aussi", "Salut, comment je peux vous aider?"]},
+      {
+        "tag":"bye",
+      "patterns":["au revoir","bye", "adieu", "à plus tard"],
+      "responses":["Merci à la prochaine", "Au revoir, merci pour votre visite"]},
+      {"tag":"ça va",
+      "patterns":["ça va", "comment tu vas", "tu vas bien"],
+      "responses":["ça va plutot bien merci", "je vais bien et vous?", "Je vais parfaitement bien merci"]},
+      {"tag":"merci",
+      "patterns":["d'accord", "super", "parfait", "c'est gentil", "génial" ],
+      "responses":["Ravi de pouvoir vous aider"]
+      },
+      {"tag": "gout_couleur",
+      "patterns":["Quelle est ta couleur préférée?", "Quelle couleur préfères tu?", "Quelle est ta couleur fétiche?", "Quelle couleur aimes tu?"],
+      "responses": ["Ma couleur fétiche est le vert !", "J'adore le bleu", "J'aime beaucoup le rouge"]},
+      {"tag":"identité",
+      "patterns":["Qui es-tu", "t'es qui", "tu fais quoi dans la vie"],
+      "responses":["Je suis votre assistant virtuelle"]},
+      {"tag": "habitation",
+      "patterns":["tu vis ou", "ou vis-tu", "tu as une maison?", "tu viens d'ou"],
+      "responses":["Je suis un programme, donc je vis partout"]},
+      {"tag": "conv",
+      "patterns": ["Je vais bien aussi", "je vais très bien"],
+      "responses": ["Parfait, que puis-je faire pour vous?"]},
+  
+      {"tag": "heure",
+      "patterns": ["Quelle heure est-il", "il est quelle heure"],
+      "responses": ["heure"]},
+      {"tag": "date",
+      "patterns": ["on est quel jour", "donne moi la date", "date d'aujourd'hui", "nous sommes le combien aujourd'hui"],
+      "responses": ["date"]},
+      {"tag": "actualité",
+      "patterns": ["lis moi l'actualité", "Quelle est l'actualité du jour", "lis moi le journal"],
+      "responses": ["journal"]},
+      {"tag": "blague",
+      "patterns": ["je suis de mauvaise humeur", "raconte-moi une blague", "fais-moi rire"],
+      "responses":["blagues"] },
+      {"tag": "recherche",
+      "patterns": ["google", "recherche"],
+      "responses":["recherche"] },
+      {"tag": "localisation",
+      "patterns": [ "localisation", "endroit"],
+      "responses":["localisation"] },
+      {"tag": "alarme",
+      "patterns": ["crée une alarme", "crée un rappel", "rappelle-moi"],
+      "responses":["alarme"] }
+      
+  ]
+  }
